@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+<head>
+    <link rel="stylesheet" href="./assets/css/custom.css">
+</head>
+
+<body>
+    <div class="row set-m-w">
+        <form id="regForm" class="box-size column-form">
+            <h1>Register:</h1>
+            <!-- One "tab" for each step in the form: -->
+            <div class="tab">First Name
+                <div class="padding-tb">
+                    <input placeholder="First name..." oninput="this.className = ''" name="fname" class="form-control">
+                </div>
+                Last Name
+                <div class="padding-tb">
+                    <input placeholder="Last name..." oninput="this.className = ''" name="lname" class="form-control">
+                </div>
+            </div>
+            <div class="tab">Email ID:
+                <div class="padding-tb">
+                    <input placeholder="E-mail..." oninput="this.className = ''" name="email" class="form-control">
+                </div>
+                Phone Number
+                <div class="padding-tb">
+                    <input placeholder="Phone..." oninput="this.className = ''" name="phone" class="form-control">
+                </div>
+            </div>
+            <div class="tab">
+                Password:
+                <div class="padding-tb">
+                    <input type="password" placeholder="Password" oninput="this.className = ''" name="dd"
+                        class="form-control">
+                </div>
+                Confirm-Password
+                <div class="padding-tb">
+                    <input type="password" placeholder="Confirm-Password" oninput="this.className = ''" name="nn"
+                        class="form-control">
+                </div>
+            </div>
+            <div style="overflow:auto;">
+                <div>
+                    <button type="button" id="prevBtn" class="margin-tb" onclick="nextPrev(-1)">Previous</button>
+                    <button type="button" id="nextBtn" class="margin-tb" onclick="nextPrev(1)">Next</button>
+                </div>
+            </div>
+            <div class="dot-button">
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+            </div>
+        </form>
+        <div id="regForm1" class="column-image box-size">
+            <img src="./assets/image/development.png" class="w-100 height-form-reg">
+        </div>
+    </div>
+    <script src="./assets/js/custom.js"></script>
+</body>
+
+</html>

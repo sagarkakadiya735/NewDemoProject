@@ -1,0 +1,145 @@
+.box-size {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f1f1;
+}
+
+#regForm {
+  background-color: #ffffff;
+  /* margin: 100px auto; */
+  font-family: Raleway;
+  width: 50%;
+  min-width: 350px;
+  height: 480px;
+}
+#regForm1 {
+  /* margin: 100px auto; */
+  font-family: Raleway;
+  width: 50%;
+  min-width: 350px;
+}
+#regFormlogin {
+  background-color: #ffffff;
+  margin: 50px auto;
+  font-family: Raleway;
+  /* padding: 40px; */
+  width: 70%;
+  min-width: 480px;
+}
+
+h1 {
+  text-align: center;  
+}
+
+input {
+  padding-left: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}
+.set-m-w{
+width: 70%;  margin: 50px auto;
+}
+.dot-button{
+  text-align:center;margin-top: 15px;
+}
+.w-100{
+  width: 100%;
+}
+.w-50{
+  width: 50%;
+}
+
+.float-l{
+  float: left;
+}
+.float-r{
+  float: right;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column-image {
+  float: left;
+  width: 50%;
+}
+.column-form {
+  float: left;
+  width: 50%;
+  padding: 25px;
+}
+.height-form{
+  height: 480px;
+}
+.height-form-reg{
+  height: 480px;
+}
+.form-control{
+  width: 96%;
+}
+.padding-tb{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.margin-tb{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
