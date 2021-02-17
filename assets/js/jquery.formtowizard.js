@@ -24,8 +24,8 @@
                 nextBtnName: 'Next &gt;',
                 prevBtnName: '&lt; Back',
                 buttonTag: 'a',
-                nextBtnClass: 'btn next',
-                prevBtnClass: 'btn prev'
+                nextBtnClass: 'btn next border-r',
+                prevBtnClass: 'btn prev border-r'
             }, options);
         }
 

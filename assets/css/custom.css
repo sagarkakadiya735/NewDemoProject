@@ -1,9 +1,9 @@
 .box-size {
   box-sizing: border-box;
 }
-body {
+/* body {
   background-color: #f1f1f1;
-}
+} */
 
 #regForm {
   background-color: #ffffff;
@@ -152,11 +152,11 @@ width: 70%;  margin: 50px auto;
 
 /* new css step 1 2 3 */
 
-    body {
+    /* body {
         font-family: Lucida Sans, Arial, Helvetica, Sans-Serif;
         font-size: 13px;
         margin: 20px;
-    }
+    } */
 
     #main {
         width: 55%;
@@ -274,10 +274,23 @@ width: 70%;  margin: 50px auto;
     width: 100% !important;
   }
    #steps li{
-    font-size: 22px!important;
+    font-size: 31px!important;
   }
    #main{
     width: 90%;
+  }
+  .bg-off-white{
+    background-color: white;
+  }
+  .text-center{
+    text-align: center;
+  }
+    .border-b{
+    border: none;
+    border-bottom: 1px solid #ccc;;
+  }
+  .border-r{
+    border-radius: 25px !important;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -288,33 +301,56 @@ width: 70%;  margin: 50px auto;
     width: 100% !important;
   }
    #steps li{
-    font-size: 19px!important;
+    font-size: 30px!important;
   }
    #main{
     width: 50%;
   }
+  .bg-off-white{
+    background-color: white;
+  }
+  .text-center{
+    text-align: center;
+  }
+  .border-b{
+    border: none;
+    border-bottom: 1px solid #ccc;;
+  }
+    .border-r{
+    border-radius: 25px !important;
+  }
 }
 @media (min-width: 768px) and (max-width: 992px) {
-   /* .hide{
-    display: none;
-  }
-  .column-form{
-    width: 100% !important;
-  }
-  #steps li{
-    font-size: 19px!important;
-  }*/
+
   #main{
     width: 80%;
   } 
+  .bg-off-white{
+    background-color: #f1f1f1;
+  }
+  .body{
+    background-color: #f1f1f1 !important;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     #steps li{
     padding-left: 10px !important;
   }
+  .bg-off-white{
+    background-color: #f1f1f1;
+  }
+  .body{
+    background-color: #f1f1f1 !important;
+  }
 }
 @media (min-width: 1200px) {
   #steps li{
     padding-left: 35px !important;
+  }
+   .bg-off-white{
+    background-color: #f1f1f1;
+  }
+  .body{
+    background-color: #f1f1f1;
   }
 }
