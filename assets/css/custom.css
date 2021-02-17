@@ -1,32 +1,9 @@
 .box-size {
   box-sizing: border-box;
 }
-/* body {
-  background-color: #f1f1f1;
-} */
-
-#regForm {
-  background-color: #ffffff;
-  /* margin: 100px auto; */
-  font-family: Raleway;
-  width: 50%;
-  min-width: 350px;
-  height: 400px;
-}
-#regForm1 {
-  /* margin: 100px auto; */
-  font-family: Raleway;
-  width: 50%;
-  min-width: 350px;
-}
 #regFormlogin {
-  /* background-color: #ffffff; */
   margin: 50px auto;
   font-family: Raleway;
-  /* padding: 40px; */
-  width: 55%;
-  /* height: 300; */
-  min-width: 480px;
 }
 
 h1 {
@@ -149,22 +126,12 @@ width: 70%;  margin: 50px auto;
 }
 
 
-
 /* new css step 1 2 3 */
-
-    /* body {
-        font-family: Lucida Sans, Arial, Helvetica, Sans-Serif;
-        font-size: 13px;
-        margin: 20px;
-    } */
 
     #main {
         width: 55%;
         margin: 50px auto;
-        /* border: solid 1px #b2b3b5; */
         -moz-border-radius: 10px;
-        /* padding: 20px; */
-        /* background-color: #f6f6f6; */
     }
 
     #header {
@@ -175,7 +142,6 @@ width: 70%;  margin: 50px auto;
 
     fieldset {
         border: none;
-        /* width: 320px; */
     }
 
     legend {
@@ -190,19 +156,8 @@ width: 70%;  margin: 50px auto;
         display: block;
         margin: 15px 0 5px;
     }
-
-    /* input[type=text],
-    input[type=password] {
-        width: 300px;
-        padding: 5px;
-        border: solid 1px #000;
-    } */
-
     .prev,
     .next {
-        /* background-color: #b0232a;
-        padding: 5px 10px;
-        color: #fff; */
         text-decoration: none; 
         background-color: #4CAF50;
         color: #ffffff;
@@ -211,7 +166,6 @@ width: 70%;  margin: 50px auto;
         font-size: 17px;
         font-family: Raleway;
         cursor: pointer;
-        /* width: 50%; */
     }
 
     .prev:hover {
@@ -262,9 +216,6 @@ width: 70%;  margin: 50px auto;
     #makeWizard:hover {
         background-color: #000;
     }
-
-
-
 
 @media (min-width: 0) and (max-width: 576px) {
   .hide{
@@ -321,7 +272,9 @@ width: 70%;  margin: 50px auto;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
-
+  .hide-b{
+    display: none;
+  }
   #main{
     width: 80%;
   } 
@@ -333,6 +286,9 @@ width: 70%;  margin: 50px auto;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+  .hide-b{
+    display: none;
+  }
     #steps li{
     padding-left: 10px !important;
   }
@@ -344,6 +300,9 @@ width: 70%;  margin: 50px auto;
   }
 }
 @media (min-width: 1200px) {
+  .hide-b{
+    display: none;
+  }
   #steps li{
     padding-left: 35px !important;
   }
