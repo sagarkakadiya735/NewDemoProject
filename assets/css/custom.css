@@ -11,7 +11,7 @@ body {
   font-family: Raleway;
   width: 50%;
   min-width: 350px;
-  height: 480px;
+  height: 400px;
 }
 #regForm1 {
   /* margin: 100px auto; */
@@ -20,11 +20,12 @@ body {
   min-width: 350px;
 }
 #regFormlogin {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   margin: 50px auto;
   font-family: Raleway;
   /* padding: 40px; */
-  width: 70%;
+  width: 55%;
+  /* height: 300; */
   min-width: 480px;
 }
 
@@ -93,6 +94,9 @@ button:hover {
 .step.finish {
   background-color: #4CAF50;
 }
+.bg-white{
+  background-color: #ffffff;
+}
 .set-m-w{
 width: 70%;  margin: 50px auto;
 }
@@ -124,13 +128,13 @@ width: 70%;  margin: 50px auto;
 .column-form {
   float: left;
   width: 50%;
-  padding: 25px;
+  /* padding: 25px; */
 }
 .height-form{
-  height: 480px;
+  height: 400px;
 }
 .height-form-reg{
-  height: 480px;
+  height: 400px;
 }
 .form-control{
   width: 96%;
@@ -142,4 +146,175 @@ width: 70%;  margin: 50px auto;
 .margin-tb{
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+
+
+/* new css step 1 2 3 */
+
+    body {
+        font-family: Lucida Sans, Arial, Helvetica, Sans-Serif;
+        font-size: 13px;
+        margin: 20px;
+    }
+
+    #main {
+        width: 55%;
+        margin: 50px auto;
+        /* border: solid 1px #b2b3b5; */
+        -moz-border-radius: 10px;
+        /* padding: 20px; */
+        /* background-color: #f6f6f6; */
+    }
+
+    #header {
+        text-align: center;
+        border-bottom: solid 1px #b2b3b5;
+        margin: 0 0 20px 0;
+    }
+
+    fieldset {
+        border: none;
+        /* width: 320px; */
+    }
+
+    legend {
+        font-size: 18px;
+        margin: 0px;
+        padding: 10px 0px;
+        color: #b0232a;
+        font-weight: bold;
+    }
+
+    label {
+        display: block;
+        margin: 15px 0 5px;
+    }
+
+    /* input[type=text],
+    input[type=password] {
+        width: 300px;
+        padding: 5px;
+        border: solid 1px #000;
+    } */
+
+    .prev,
+    .next {
+        /* background-color: #b0232a;
+        padding: 5px 10px;
+        color: #fff; */
+        text-decoration: none; 
+        background-color: #4CAF50;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 17px;
+        font-family: Raleway;
+        cursor: pointer;
+        /* width: 50%; */
+    }
+
+    .prev:hover {
+        background-color: #000;
+        text-decoration: none;
+    }
+
+    .prev {
+        float: left;
+    }
+
+    .next {
+        float: right;
+    }
+
+    #steps {
+        list-style: none;
+        width: 100%;
+        overflow: hidden;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #steps li {
+        font-size: 24px;
+        float: left;
+        padding: 10px;
+        color: #b0b1b3;
+    }
+
+    #steps li span {
+        font-size: 11px;
+        display: block;
+    }
+
+    #steps li.current {
+        color: #000;
+    }
+
+    #makeWizard {
+        background-color: #b0232a;
+        color: #fff;
+        padding: 5px 10px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    #makeWizard:hover {
+        background-color: #000;
+    }
+
+
+
+
+@media (min-width: 0) and (max-width: 576px) {
+  .hide{
+    display: none;
+  }
+   .column-form{
+    width: 100% !important;
+  }
+   #steps li{
+    font-size: 22px!important;
+  }
+   #main{
+    width: 90%;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+   .hide{
+    display: none;
+  }
+   .column-form{
+    width: 100% !important;
+  }
+   #steps li{
+    font-size: 19px!important;
+  }
+   #main{
+    width: 50%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+   /* .hide{
+    display: none;
+  }
+  .column-form{
+    width: 100% !important;
+  }
+  #steps li{
+    font-size: 19px!important;
+  }*/
+  #main{
+    width: 80%;
+  } 
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #steps li{
+    padding-left: 10px !important;
+  }
+}
+@media (min-width: 1200px) {
+  #steps li{
+    padding-left: 35px !important;
+  }
 }
