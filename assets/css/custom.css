@@ -272,9 +272,7 @@ width: 70%;  margin: 50px auto;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
-  .hide-b{
-    display: none;
-  }
+ 
   #main{
     width: 80%;
   } 
