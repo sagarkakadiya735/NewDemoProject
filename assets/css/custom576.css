@@ -3,8 +3,11 @@
     margin-top: 116px;
 }
 .w-h-avtar{
-    height: 82px;
-    width: 82px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
+}
+.h-90{
+  height: 90px;
 }
 }

@@ -2,4 +2,13 @@
 .mt-header{
     margin-top: 6%;
 }
+
+.h-90{
+  height: 150px;
+}
+.w-h-avtar{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
 }
