@@ -1,0 +1,10 @@
+@media (min-width: 576px) and (max-width: 768px) {
+.mt-header{
+    margin-top: 17%;
+}
+.w-h-avtar{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+}

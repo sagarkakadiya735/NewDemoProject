@@ -4,6 +4,7 @@
 #regFormlogin {
   margin: 50px auto;
   font-family: Raleway;
+   width: 55%;
 }
 
 h1 {
@@ -243,6 +244,9 @@ width: 70%;  margin: 50px auto;
   .border-r{
     border-radius: 25px !important;
   }
+  #regFormlogin { 
+   width: 100%;
+  }
 }
 @media (min-width: 576px) and (max-width: 768px) {
    .hide{
@@ -269,6 +273,9 @@ width: 70%;  margin: 50px auto;
   }
     .border-r{
     border-radius: 25px !important;
+  }
+   #regFormlogin { 
+   width: 100%;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -310,4 +317,315 @@ width: 70%;  margin: 50px auto;
   .body{
     background-color: #f1f1f1;
   }
+}
+
+/* nav */
+ @media all and (max-width:992px) {
+
+        .offcanvas-header {
+            display: block;
+        }
+
+        .mobile-offcanvas {
+            visibility: hidden;
+            transform: translateX(-100%);
+            border-radius: 0;
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            z-index: 1200;
+            width: 80%;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            transition: visibility .2s ease-in-out, transform .2s ease-in-out;
+        }
+
+        .mobile-offcanvas.show {
+            visibility: visible;
+            transform: translateX(0);
+        }
+    }
+
+    body.offcanvas-active {
+        overflow: hidden;
+    }
+
+    .offcanvas-header {
+        display: none;
+    }
+
+    .screen-overlay {
+        width: 0%;
+        height: 100%;
+        z-index: 30;
+        position: fixed;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        visibility: hidden;
+        background-color: rgba(34, 34, 34, 0.6);
+        transition: opacity .2s linear, visibility .1s, width 1s ease-in;
+    }
+
+    .screen-overlay.show {
+        transition: opacity .5s ease, width 0s;
+        opacity: 1;
+        width: 100%;
+        visibility: visible;
+    }
+
+
+    /* search bar */
+    .openBtn {
+  background: #f1f1f1;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.openBtn:hover {
+  background: #bbb;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+
+}
+
+.overlay-content {
+  position: relative;
+  top: 0%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white;
+}
+
+.overlay .closebtn:hover {
+  color: #000;
+}
+
+.overlay input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 70%;
+ background-color:#eee;
+}
+
+.overlay input[type=text]:hover {
+  background: #f1f1f1;
+}
+
+.overlay button {
+  float: left;
+  width: 15%;
+  padding: 15px;
+  /* background-color:#eee; */
+  color: #fff;
+    background-color: #6c757d;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  /* color: #000; */
+}
+
+.overlay button:hover {
+  background: #bbb;
+}
+
+
+/* slider */
+
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+
+.multi-item-carousel .carousel-inner > .item {
+  transition: 500ms ease-in-out left;
+}
+.multi-item-carousel .carousel-inner .active.left {
+  left: -33%;
+}
+.multi-item-carousel .carousel-inner .active.right {
+  left: 33%;
+}
+.multi-item-carousel .carousel-inner .next {
+  left: 33%;
+}
+.multi-item-carousel .carousel-inner .prev {
+  left: -33%;
+}
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .multi-item-carousel .carousel-inner > .item {
+    transition: 500ms ease-in-out left;
+    transition: 500ms ease-in-out all;
+    -webkit-backface-visibility: visible;
+            backface-visibility: visible;
+    transform: none !important;
+  }
+}
+.multi-item-carousel .carouse-control.left,
+.multi-item-carousel .carouse-control.right {
+  background-image: none;
+}
+body {
+  background: #333;
+  color: #ddd;
+}
+h1 {
+  color: white;
+  font-size: 2.25em;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  text-shadow: 0px 2px 0px #000000;
+}
+.owl-carousel {
+-ms-touch-action: pan-y;
+touch-action: pan-y;
+}
+or
+.owl-carousel {
+-ms-touch-action: none;
+touch-action: none;
+}
+/* color */
+.bg-grew{
+  background-color: #eee;
+}
+.bg-ll-blue{
+  
+  background-color: #a2ffe2;
+}
+.bg-ll-green{
+  
+  background-color: #bafebc;
+}
+.bg-l-blue{
+  background-color: #eff7fa;
+}
+.text-l-blue{
+  color: #25a3b5;
+}
+/* clor end */
+.h-90{
+  height: 90px;
+}
+.h-150{
+  height: 150px;
+}
+.bg-pro-color{
+  background-color: whitesmoke;
+}
+.h-w-box{
+  /* width: 120px; */
+  height: 120px;
+}
+.bor-r{
+      border-radius: 0px 10px 10px 0px !important;
+}
+.bor-l{
+      border-radius: 10px 0px 0px 10px !important;
+      background-color: #eee !important;
+}
+.inpu-h{
+  height: calc(1.5em + .75rem + 2px) !important;
+}
+.p-01{
+  padding: 1px !important;
+}
+.p-02{
+  padding: 2px !important;
+}
+.h-product{
+  height: 170px;
+  border-radius: 10px;
+}
+.owl-theme .owl-controls .owl-page {
+    display: inline-block;
+}
+#main-owl-demo.owl-theme .owl-controls{
+text-align: center;
+margin-top: -20px;
+background-color: white;
+}
+#owl-demo.owl-theme .owl-controls{
+display: none !important;
+}
+#product-owl-demo.owl-theme .owl-controls{
+display: none !important;
+}
+#prod-owl-demo.owl-theme .owl-controls{
+display: none !important;
+}
+#prods-owl-demo.owl-theme .owl-controls{
+display: none !important;
+}
+#pros-owl-demo.owl-theme .owl-controls{
+display: none !important;
+}
+#main-owl-demo.owl-theme .owl-controls .owl-page span {
+  
+    background: none repeat scroll 0 0 white;
+    border-radius: 20px;
+    display: block;
+    height: 12px;
+    margin: 5px 7px;
+    opacity: 0.9;
+    width: 12px;
+}
+.box-shadow{
+      box-shadow: 0 2px 6px 0 rgb(0 0 0 / 20%);
 }
