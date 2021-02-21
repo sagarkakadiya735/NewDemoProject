@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+<head>
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/custom576.css">
+    <link rel="stylesheet" href="./assets/css/custom768.css">
+    <link rel="stylesheet" href="./assets/css/custom992.css">
+    <link rel="stylesheet" href="./assets/css/custom1199.css">
+    <link rel="stylesheet" href="./assets/css/custom1200.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap files (jQuery first, then Popper.js, then Bootstrap JS) -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        type="text/css" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+        type="text/javascript"></script>
+    <link href="./assets/css/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <script src="./assets/js/jquery-1.9.1.min.js"></script>
+    <style>
+        .dropdown-toggle::after {
+            content: none;
+        }
+    </style>
+</head>
+
+<body class="">
+    <nav id="myOverlays" class="navbar fixed-top navbar-light bg-white box-shadow p-0" style="display: inherit;">
+        <div class="d-flex justify-content-end">
+            <div>
+                <nav class="navbar navbar-expand-sm navbar-light p-2">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link py-0">For Buyer <span class="sr-only">
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link py-0 dropdown-toggle content text-body" id="navbarDropdown"
+                                    role="button" data-hover="dropdown" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    For Supplier
+                                    <img src="./assets/image/caret-down-light.png" class="w-arrow" alt="">
+                                </a>
+                                <div class="dropdown-menu" style="right: 0;left: unset;"
+                                    aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item">Action</a>
+                                    <a class="dropdown-item">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item text-body">
+                                <a class="nav-link py-0 text-body">Get Apps</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link py-0">English<span class="sr-only">
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+        <div class="d-flex justify-content-around  mb-1">
+            <div class="p-2 " style="width: 20%;">
+                <img src="./assets/image/logo.png" alt="" class="w-100">
+            </div>
+            <div class="p-2 my-auto" style="width: 45%;">
+                <div class="input-group">
+                    <input type="text" class="form-control inp-fous search-bro" placeholder="Search this blog">
+                    <!-- <img src="./assets/image/shopping-cart-light.png" class="w-icon" alt=""> -->
+                    <div class="input-group-append">
+
+                        <button class="btn btn-secondary px-3 font-wseight-normal py-0 bg-danger border-0"
+                            style="border-radius: 0%;" type="button">
+                            Search
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="p-2 " style="width: 25%;">
+                <div class="row m-0">
+                    <div class="col-sm-6 p-0">
+                        <div class="row w-100 p-0 m-0">
+                            <div class="col-sm-3 w-100 p-0">
+                                <img class="w-100 p-1" src="./assets/image/user-light.png" alt="Card image" />
+                            </div>
+                            <div class="col-sm-9 px-2 m-0 w-100">
+                                <div class="card-body-right">
+                                    <p class="card-text m-0">Sing In</p>
+                                    <p class="card-text m-0">Join Free</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 p-0">
+                        <div class="row w-100 p-0 m-0">
+                            <div class="col-sm-3 w-100 p-0">
+                                <img class="w-100 p-1" src="./assets/image/shopping-cart-light.png" alt="Card image" />
+                            </div>
+                            <div class="col-sm-9 px-2 m-0 w-100">
+
+                                <p class=" m-0 set-l">InquiryBasket</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </nav>
+    <div style="margin-top: 9%;"></div>
+    <div class="p-3">
+        <div class="box-shadow p-4">
+            <div class="row">
+                <div class="col-3 col-md-3 col-sm-3 col-xl-3 col-lg-3">
+                    <div>
+                        <img src="./assets/image/circles-four-light.png" class="icon-cat" alt="">
+                        <span class="font-wseight-bold h5">Categories</span>
+                    </div>
+                    <div class="pt-3">
+                        <div style="padding: 5px;" class="font-ws text-secondary">Manufacturing & Processing Machinery
+                        </div>
+                        <div style="padding: 5px;" class="font-ws text-secondary">Manufacturing </div>
+                        <div style="padding: 5px;" class="font-ws text-secondary">Manufacturing & Processing Machinery
+                        </div>
+                        <div style="padding: 5px;" class="font-ws text-secondary"> & Processing Machinery</div>
+                        <div style="padding: 5px;" class="font-ws text-secondary">Manufacturing Machinery</div>
+                        <div style="padding: 5px;" class="font-ws text-secondary">Manufacturing & Processing Machinery
+                        </div>
+                        <div style="padding: 5px;" class="font-ws text-secondary">Manufacessing Machinery</div>
+                        <div style="padding: 5px;" class="font-ws text-secondary">Manufacturing & Processing Machinery
+                        </div>
+                        <div style="padding: 5px;" class="font-ws text-secondary">Manufacting Machinery</div>
+                        <div style="padding: 5px;" class="font-ws text-secondary">Manufacturing & Processing Machinery
+                        </div>
+                        <div style="padding: 5px;" class="font-ws text-secondary">Manufacturing & Processing Machinery
+                        </div>
+                        <div style="padding: 5px;" class="font-ws text-secondary">Manufacturing & Processing Machinery
+                        </div>
+                        <div style="padding: 5px;" class="font-ws text-secondary">Manufacturing & Processing Machinery
+                        </div>
+                        <div style="padding: 5px;" class="font-ws text-secondary">Manufacturing & Processing Machinery
+                        </div>
+                        <div style="padding: 5px;" class="font-ws text-secondary">Manufacturing & Processing Machinery
+                        </div>
+                        <div style="padding: 5px;" class="font-ws text-primary">More Categories
+                            <img src="./assets/image/caret-right.png" class="text-primary" width="15px" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-sm-6 col-xl-6 col-lg-6 p-0">
+                    <div class="p-2">
+                        <div id="home-owl-demo">
+                            <div class="item">
+                                <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
+                                    class="w-100 h-50" />
+                            </div>
+                            <div class="item">
+                                <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
+                                    class="w-100 h-50" />
+                            </div>
+                            <div class="item">
+                                <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
+                                    class="w-100 h-50" />
+                            </div>
+                            <div class="item">
+                                <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
+                                    class="w-100 h-50" />
+                            </div>
+                            <div class="item">
+                                <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
+                                    class="w-100 h-50" />
+                            </div>
+                        </div>
+                        <div class="row py-2 m-0 w-100">
+                            <div class="col-4" style="padding-right: 3px;padding-left: 3px;">
+                                <img src="./assets/image/2.jpg" class="w-100" style="height: 120px;" />
+                            </div>
+                            <div class="col-4" style="padding-right: 3px;padding-left: 3px;">
+                                <img src="./assets/image/2.jpg" class="w-100" style="height: 120px;" />
+                            </div>
+                            <div class="col-4" style="padding-right: 3px;padding-left: 3px;">
+                                <img src="./assets/image/2.jpg" class="w-100" style="height: 120px;" />
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-3 col-md-3 col-sm-3 col-xl-3 col-lg-3 px-4">
+                    <div class="py-3">
+                        <!-- <img src="./assets/image/circles-four-light.png" class="icon-cat" alt=""> -->
+                        <span class="font-wseight-bold h5">You May Like</span>
+                    </div>
+                    <div class="row py-2">
+                        <div class="col-sm-3 pr-0 ">
+                            <img style="height: 60px;" class="w-100" src="./assets/image/2.jpg" alt="Card image" />
+                        </div>
+                        <div class="col-sm-9 px-2 py-2">
+                            <div class="card-body-right">
+                                <p class="m-0 text-body">Hanbag</p>
+                                <p class="m-0 text-secondary font-ws">82,000 +Product</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-2">
+                        <div class="col-sm-3 pr-0 ">
+                            <img style="height: 60px;" class="w-100" src="./assets/image/2.jpg" alt="Card image" />
+                        </div>
+                        <div class="col-sm-9 px-2 py-2">
+                            <div class="card-body-right">
+                                <p class="m-0 text-body">Hanbag</p>
+                                <p class="m-0 text-secondary font-ws">82,000 +Product</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-2">
+                        <div class="col-sm-3 pr-0 ">
+                            <img style="height: 60px;" class="w-100" src="./assets/image/2.jpg" alt="Card image" />
+                        </div>
+                        <div class="col-sm-9 px-2 py-2">
+                            <div class="card-body-right">
+                                <p class="m-0 text-body">Hanbag</p>
+                                <p class="m-0 text-secondary font-ws">82,000 +Product</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-2">
+                        <div class="col-sm-3 pr-0 ">
+                            <img style="height: 60px;" class="w-100" src="./assets/image/2.jpg" alt="Card image" />
+                        </div>
+                        <div class="col-sm-9 px-2 py-2">
+                            <div class="card-body-right">
+                                <p class="m-0 text-body">Hanbag</p>
+                                <p class="m-0 text-secondary font-ws">82,000 +Product</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-2">
+                        <div class="col-sm-3 pr-0 ">
+                            <img style="height: 60px;" class="w-100" src="./assets/image/2.jpg" alt="Card image" />
+                        </div>
+                        <div class="col-sm-9 px-2 py-2">
+                            <div class="card-body-right">
+                                <p class="m-0 text-body">Hanbag</p>
+                                <p class="m-0 text-secondary font-ws">82,000 +Product</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="py-3">
+                        <div class="h6 text-secondary">No desirable products?</div>
+                        <div class="px-3 py-2 my-2 border-request">
+                            <img src="./assets/image/bell-light.png" width="15px" alt="">
+                            Post Your Request Now
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="p-3">
+        <div class="box-shadow p-4 ">
+            <div class="pb-3 h4">Selected Trending Products</div>
+            <div class="row">
+                <div class="col-2 col-md-2 col-sm-2 col-xl-2 col-lg-2">
+                    <div class="geeks">
+                        <img src="./assets/image/2.jpg" class="w-product-h" alt="">
+                    </div>
+                    <div class="text-body py-2 text-center">Diesel Generator</div>
+                </div>
+                <div class="col-2 col-md-2 col-sm-2 col-xl-2 col-lg-2">
+                    <div class="geeks">
+                        <img src="./assets/image/2.jpg" class="w-product-h" alt="">
+                    </div>
+                    <div class="text-body py-2 text-center">Diesel Generator</div>
+                </div>
+                <div class="col-2 col-md-2 col-sm-2 col-xl-2 col-lg-2">
+                    <div class="geeks">
+                        <img src="./assets/image/2.jpg" class="w-product-h" alt="">
+                    </div>
+                    <div class="text-body py-2 text-center">Diesel Generator</div>
+                </div>
+                <div class="col-2 col-md-2 col-sm-2 col-xl-2 col-lg-2">
+                    <div class="geeks">
+                        <img src="./assets/image/2.jpg" class="w-product-h" alt="">
+                    </div>
+                    <div class="text-body py-2 text-center">Diesel Generator</div>
+                </div>
+                <div class="col-2 col-md-2 col-sm-2 col-xl-2 col-lg-2">
+                    <div class="geeks">
+                        <img src="./assets/image/2.jpg" class="w-product-h" alt="">
+                    </div>
+                    <div class="text-body py-2 text-center">Diesel Generator</div>
+                </div>
+                <div class="col-2 col-md-2 col-sm-2 col-xl-2 col-lg-2">
+                    <div class="geeks">
+                        <img src="./assets/image/2.jpg" class="w-product-h" alt="">
+                    </div>
+                    <div class="text-body py-2 text-center">Diesel Generator</div>
+                </div>
+                <div class="col-2 col-md-2 col-sm-2 col-xl-2 col-lg-2">
+                    <div class="geeks">
+                        <img src="./assets/image/2.jpg" class="w-product-h" alt="">
+                    </div>
+                    <div class="text-body py-2 text-center">Diesel Generator</div>
+                </div>
+                <div class="col-2 col-md-2 col-sm-2 col-xl-2 col-lg-2">
+                    <div class="geeks">
+                        <img src="./assets/image/2.jpg" class="w-product-h" alt="">
+                    </div>
+                    <div class="text-body py-2 text-center">Diesel Generator</div>
+                </div>
+                <div class="col-2 col-md-2 col-sm-2 col-xl-2 col-lg-2">
+                    <div class="geeks">
+                        <img src="./assets/image/2.jpg" class="w-product-h" alt="">
+                    </div>
+                    <div class="text-body py-2 text-center">Diesel Generator</div>
+                </div>
+                <div class="col-2 col-md-2 col-sm-2 col-xl-2 col-lg-2">
+                    <div class="geeks">
+                        <img src="./assets/image/2.jpg" class="w-product-h" alt="">
+                    </div>
+                    <div class="text-body py-2 text-center">Diesel Generator</div>
+                </div>
+                <div class="col-2 col-md-2 col-sm-2 col-xl-2 col-lg-2">
+                    <div class="geeks">
+                        <img src="./assets/image/2.jpg" class="w-product-h" alt="">
+                    </div>
+                    <div class="text-body py-2 text-center">Diesel Generator</div>
+                </div>
+                <div class="col-2 col-md-2 col-sm-2 col-xl-2 col-lg-2">
+                    <div class="geeks">
+                        <img src="./assets/image/2.jpg" class="w-product-h" alt="">
+                    </div>
+                    <div class="text-body py-2 text-center">Diesel Generator</div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <script src="./assets/js/jquery.formtowizard.js"></script>
+    <script src="./assets/js/custom.js"></script>
+    <script src="./assets/js/owl.carousel.js"></script>
+    <script>
+        /**
+     * @preserve
+     * Project: Bootstrap Hover Dropdown
+     * Author: Cameron Spear
+     * Version: v2.2.1
+     * Contributors: Mattia Larentis
+     * Dependencies: Bootstrap's Dropdown plugin, jQuery
+     * Description: A simple plugin to enable Bootstrap dropdowns to active on hover and provide a nice user experience.
+     * License: MIT
+     * Homepage: http://cameronspear.com/blog/bootstrap-dropdown-on-hover-plugin/
+     * Edit: cevataslan.com
+     */
+        ; (function ($, window, undefined) {
+            // outside the scope of the jQuery plugin to
+            // keep track of all dropdowns
+            var $allDropdowns = $();
+
+            // if instantlyCloseOthers is true, then it will instantly
+            // shut other nav items when a new one is hovered over
+            $.fn.dropdownHover = function (options) {
+                // don't do anything if touch is supported
+                // (plugin causes some issues on mobile)
+                if ('ontouchstart' in document) return this; // don't want to affect chaining
+
+                // the element we really care about
+                // is the dropdown-toggle's parent
+                $allDropdowns = $allDropdowns.add(this.parent());
+
+                return this.each(function () {
+                    var $this = $(this),
+                        $parent = $this.parent(),
+                        $dropmenu = $parent.find('.dropdown-menu'),
+                        defaults = {
+                            delay: 10,
+                            hoverDelay: 0,
+                            instantlyCloseOthers: true
+                        },
+                        data = {
+                            delay: $(this).data('delay'),
+                            hoverDelay: $(this).data('hover-delay'),
+                            instantlyCloseOthers: $(this).data('close-others')
+                        },
+                        showEvent = 'show.bs.dropdown',
+                        hideEvent = 'hide.bs.dropdown',
+                        // shownEvent  = 'shown.bs.dropdown',
+                        // hiddenEvent = 'hidden.bs.dropdown',
+                        settings = $.extend(true, {}, defaults, options, data),
+                        timeout, timeoutHover;
+
+                    $parent.hover(function (event) {
+                        // so a neighbor can't open the dropdown
+                        if (!$parent.hasClass('show') && !$this.is(event.target)) {
+                            // stop this event, stop executing any code
+                            // in this callback but continue to propagate
+                            return true;
+                        }
+
+                        openDropdown(event);
+                    }, function () {
+                        // clear timer for hover event
+                        window.clearTimeout(timeoutHover)
+                        timeout = window.setTimeout(function () {
+                            $this.attr('aria-expanded', 'false');
+                            $parent.removeClass('show');
+                            $dropmenu.removeClass('show');
+                            $this.trigger(hideEvent);
+                        }, settings.delay);
+                    });
+
+                    // this helps with button groups!
+                    $this.hover(function (event) {
+                        // this helps prevent a double event from firing.
+                        // see https://github.com/CWSpear/bootstrap-hover-dropdown/issues/55
+                        if (!$parent.hasClass('show') && !$parent.is(event.target)) {
+                            // stop this event, stop executing any code
+                            // in this callback but continue to propagate
+                            return true;
+                        }
+
+                        openDropdown(event);
+                    });
+
+                    // handle submenus
+                    $parent.find('.dropdown-submenu').each(function () {
+                        var $this = $(this);
+                        var subTimeout;
+                        $this.hover(function () {
+                            window.clearTimeout(subTimeout);
+                            $this.children('.dropdown-menu').show();
+                            // always close submenu siblings instantly
+                            $this.siblings().children('.dropdown-menu').hide();
+                        }, function () {
+                            var $submenu = $this.children('.dropdown-menu');
+                            subTimeout = window.setTimeout(function () {
+                                $submenu.hide();
+                            }, settings.delay);
+                        });
+                    });
+
+                    function openDropdown(event) {
+                        if ($this.parents(".navbar").find(".navbar-toggle").is(":visible")) {
+                            // If we're inside a navbar, don't do anything when the
+                            // navbar is collapsed, as it makes the navbar pretty unusable.
+                            return;
+                        }
+
+                        // clear dropdown timeout here so it doesnt close before it should
+                        window.clearTimeout(timeout);
+                        // restart hover timer
+                        window.clearTimeout(timeoutHover);
+
+                        // delay for hover event.  
+                        timeoutHover = window.setTimeout(function () {
+                            $allDropdowns.find(':focus').blur();
+
+                            if (settings.instantlyCloseOthers === true)
+                                $allDropdowns.removeClass('show');
+
+                            // clear timer for hover event
+                            window.clearTimeout(timeoutHover);
+                            $this.attr('aria-expanded', 'true');
+                            $parent.addClass('show');
+                            $dropmenu.addClass('show');
+                            $this.trigger(showEvent);
+                        }, settings.hoverDelay);
+                    }
+                });
+            };
+
+            $(document).ready(function () {
+                // apply dropdownHover to all elements with the data-hover="dropdown" attribute
+                $('[data-hover="dropdown"]').dropdownHover();
+            });
+        })(jQuery, window);
+
+    </script>
+</body>
+
+</html>

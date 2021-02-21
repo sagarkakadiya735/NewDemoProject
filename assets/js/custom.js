@@ -74,6 +74,23 @@ $(document).ready(function () {
         itemsTablet: [600, 1], //2 items between 600 and 0
         itemsMobile: false // itemsMobile disabled - inherit from itemsTablet option
     });
+    var owl8 = $("#home-owl-demo");
+
+    owl8.owlCarousel({
+        // dots: true,
+        // loop: true,
+        // dots: true,
+        // autoPlay: 3000,
+        items: 1, //10 items above 1000px browser width
+        itemsDesktop: [1000, 1], //5 items between 1000px and 901px
+        itemsDesktopSmall: [900, 1], // betweem 900px and 601px
+        itemsTablet: [600, 1], //2 items between 600 and 0
+        itemsMobile: false // itemsMobile disabled - inherit from itemsTablet option
+        // , navigation: true,
+        // navigationText: ["<img src='./assets/image/caret-right.png' width='15px'>", "<img src='./assets/image/caret-right.png' width='15px'>"]
+        , navText: ["", ""],
+        rewindNav: true,
+    });
     var owl3 = $("#product-owl-demo");
 
     owl3.owlCarousel({
@@ -139,6 +156,19 @@ $(document).ready(function () {
     })
     $(".stop").click(function () {
         owl.trigger('owl.stop');
+    })
+
+    $(".next").click(function () {
+        owl8.trigger('owl.next');
+    })
+    $(".prev").click(function () {
+        owl8.trigger('owl.prev');
+    })
+    $(".play").click(function () {
+        owl8.trigger('owl.play', 1000); //owl.play event accept autoPlay speed as second parameter
+    })
+    $(".stop").click(function () {
+        owl8.trigger('owl.stop');
     })
 
 });

@@ -10,4 +10,11 @@
     width: 140px;
     border-radius: 50%;
 }
+.font-ws{
+    font-size: 7px;
+}
+.w-product-h{
+    width: 120px !important;
+    height: 120px;
+}
 }

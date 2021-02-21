@@ -11,4 +11,11 @@
     width: 150px;
     border-radius: 50%;
 }
+.font-ws{
+    font-size: 10px;
+}
+.w-product-h{
+    width: 150px !important;
+    height: 150px;
+}
 }
