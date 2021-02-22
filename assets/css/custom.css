@@ -762,4 +762,10 @@ display: none !important;
         .geeks:hover img { 
             transform: scale(1.2); 
         } 
+        .boder-two{
+          border: 1px solid #e6ecf2;
+    border-left: 0;
+    border-top: 0;
+        }
+     
 /* home screen destop */

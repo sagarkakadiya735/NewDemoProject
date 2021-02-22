@@ -6,4 +6,12 @@
     width: 180px !important;
     height: 180px;
 }
+ .w-prod{
+          width: 100%;
+          height: 110px;
+        }
+           .w-h-store{
+          width: 140px;
+          height: 50px;
+        }
 }

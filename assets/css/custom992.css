@@ -17,4 +17,12 @@
     width: 120px !important;
     height: 120px;
 }
+   .w-prod{
+          width: 100%;
+          height: 80px;
+        }
+           .w-h-store{
+          width: 60px;
+          height: 40px;
+        }
 }
