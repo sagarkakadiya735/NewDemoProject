@@ -767,5 +767,18 @@ display: none !important;
     border-left: 0;
     border-top: 0;
         }
-     
+.containerss {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+}
+.text-up-line{
+  text-decoration-line: line-through;
+}
 /* home screen destop */

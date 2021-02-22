@@ -78,9 +78,9 @@ $(document).ready(function () {
 
     owl8.owlCarousel({
         // dots: true,
-        // loop: true,
-        // dots: true,
-        // autoPlay: 3000,
+        loop: true,
+        dots: true,
+        autoPlay: 3000,
         items: 1, //10 items above 1000px browser width
         itemsDesktop: [1000, 1], //5 items between 1000px and 901px
         itemsDesktopSmall: [900, 1], // betweem 900px and 601px
@@ -173,6 +173,19 @@ $(document).ready(function () {
 
 });
 // all slider end
+
+// header
+$(window).scroll(function () {
+
+    if ($(this).scrollTop() > 0) {
+
+        $('#headerscroller').hide();
+    }
+    else {
+        $('#headerscroller').show();
+    }
+});
+// header
 
 
 
