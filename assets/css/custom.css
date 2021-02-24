@@ -866,8 +866,8 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
 }
 
 .w-h-cat{
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
 }
 .f-w{
@@ -884,14 +884,14 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     /* border: 1px solid rgba(0,0,0,.125); */
 }
 .set-w-h-cat{
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
 }
 
 @media (min-width: 0) and (max-width: 400px) {
 .w-h-cat{
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
 }
 .f-w{
   font-size: 10px;
