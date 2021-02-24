@@ -180,12 +180,44 @@ $(window).scroll(function () {
     if ($(this).scrollTop() > 0) {
 
         $('#headerscroller').hide();
+        // $('#cat').show();
+        // document.getElementById("cat").style.position = "fixed";
     }
     else {
         $('#headerscroller').show();
+        // document.getElementById("cat").style.position = "";
+
+        // $('#cat').hide();
+
     }
 });
 // header
+
+
+// footer tab
+var header = document.getElementById("myOverlayss");
+var btns = header.getElementsByClassName("btns");
+for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("actives");
+        current[0].className = current[0].className.replace(" actives", "");
+        this.className += " actives";
+    });
+}
+// footer tab
+
+// cat tab
+$(document).ready(function () {
+    $("div.bhoechie-tab-menu>div.list-group>a").click(function (e) {
+        e.preventDefault();
+        $(this).siblings('a.active').removeClass("active");
+        $(this).addClass("active");
+        var index = $(this).index();
+        $("div.bhoechie-tab>div.bhoechie-tab-content").removeClass("active");
+        $("div.bhoechie-tab>div.bhoechie-tab-content").eq(index).addClass("active");
+    });
+});
+// cat tab
 
 
 
